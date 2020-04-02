@@ -1,0 +1,116 @@
+@font-face {
+    font-family: shabnam;
+    src: url('../fonts/Shabnam-WOL.eot'), url('../fonts/Shabnam-WOL.woff2') format('woff2'), url('../fonts/Shabnam-WOL.woff') format('woff'), url('../fonts/Shabnam-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: shabnam;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh
+}
+
+.right-side{
+    width: 45vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.right-side h1 {
+    font-size: 15px;
+    position: relative;
+    left: 173px;
+    bottom: 110px;
+}
+
+.right-side h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-left: 220px;
+}
+
+.right-side h4 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 45px;
+    color: grey;
+}
+
+.name {
+    position: absolute;
+    left: 37%;
+    top: 47%;
+}
+
+.ramz {
+    position: absolute;
+    left: 37%;
+    top: 57%;
+}
+
+.right-side form input {
+    width: 70%;
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: solid 1px #b5b5b5;
+    font-family: shabnam;
+}
+
+.right-side form input[type='submit'] {
+    margin: 10px;
+    width: 70%;
+    background-color: #1d89e4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.remember {
+    display: flex;
+    flex-direction: column;
+}
+.remember label input{
+    width: 20px;
+    float: right;
+    margin:0 5px 0;
+}
+.right-side.check {
+    position: absolute;
+    left: 13%;
+}
+
+.right-side label {
+    font-size: 9px;
+    margin-left: 315px;
+    margin-top: 10px;
+}
+
+.right-side a {
+    font-size: 9px;
+    margin-right: 15px;
+    transition: 30ms;
+}
+
