@@ -20,6 +20,13 @@ body {
     height: 100vh;
 }
 
+@media only screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
 .right-side{
     width: 45%;
     height: 100vh; 
@@ -75,6 +82,13 @@ body {
     left: 85px;
 }
 
+.security-random{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
 .right-side form input {
     width: 70%;
     margin: 10px;
@@ -104,6 +118,7 @@ body {
     border-radius: 5px;
     font-size: 18px;
     position: relative;
+    bottom: 30px;
 }
 
 .fa, .fas {
@@ -117,6 +132,12 @@ body {
     margin-left: 340px;
 }
 
+.fa-sync:before {
+    content: "\f021";
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
 .remember {
     display: flex;
     flex-direction: column;
@@ -135,7 +156,7 @@ body {
     font-size: 9px;
     position: relative;
     left: 158px;
-    top: 15px;
+    bottom: 15px;
     color: #d6d6d6;
 }
 
