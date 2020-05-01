@@ -15,7 +15,7 @@ body {
     font-family: shabnam;
 }
 
-.container{
+.container {
     display: flex;
     height: 100vh;
 }
@@ -26,17 +26,16 @@ body {
     }
 }
 
-
-.right-side{
+.right-side {
     width: 45%;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.right-side form{
+.right-side form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +68,9 @@ body {
     position: absolute;
     left: 37%;
     top: 47%;
-  }
+    border-bottom: solid 1px #8400ff !important;
+    color: #8400ff !important;
+}
 
 .ramz {
     position: absolute;
@@ -77,16 +78,23 @@ body {
     top: 57%;
 }
 
-.Security{
+.Security {
     position: relative;
     left: 85px;
+    width: 40% !important;
 }
 
-.security-random{
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.security-random {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.security-random img {
+    position: relative;
+    bottom: 80px;
+    right: 120px;
 }
 
 .right-side form input {
@@ -121,7 +129,8 @@ body {
     bottom: 30px;
 }
 
-.fa, .fas {
+.fa,
+.fas {
     position: relative;
     right: 180px;
     bottom: 40px;
@@ -138,15 +147,18 @@ body {
     left: 50px;
     bottom: 40px;
 }
+
 .remember {
     display: flex;
     flex-direction: column;
 }
-.remember label input{
+
+.remember label input {
     width: 20px;
     float: right;
-    margin:0 5px 0;
+    margin: 0 5px 0;
 }
+
 .right-side.check {
     position: absolute;
     left: 13%;
@@ -169,7 +181,7 @@ body {
 .left-side {
     width: 55%;
     height: 100vh;
-    background: linear-gradient(45deg, rgb(43, 170, 255) , rgb(2, 255, 221) );
+    background: linear-gradient(45deg, rgb(43, 170, 255), rgb(2, 255, 221));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,8 +189,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-
-
 
 .left-side .radar-angle {
     transform-origin: bottom left;
@@ -189,18 +199,14 @@ body {
     opacity: 0.7;
 }
 
-
 @keyframes radar-angle {
     from {
         transform: rotate(0);
     }
-
     to {
         transform: rotate(360deg);
     }
 }
-
-
 
 .wave .circle {
     width: 300px;
@@ -221,55 +227,44 @@ body {
     animation-delay: 2s;
 }
 
-
 .wave span:nth-child(3) {
     animation-delay: 3s;
 }
-
 
 .wave span:nth-child(4) {
     animation-delay: 4s;
 }
 
-
 .wave span:nth-child(5) {
     animation-delay: 5s;
 }
 
-
 .wave span:nth-child(6) {
     animation-delay: 6s;
 }
-
 
 @keyframes circle {
     0% {
         transform: scale(0);
         opacity: 0;
     }
-
     25% {
         transform: scale(0);
         opacity: 0.3;
     }
-
     50% {
         transform: scale(1);
         opacity: .7;
     }
-
     75% {
         transform: scale(1.5);
         opacity: 0.3;
     }
-
     100% {
         transform: scale(2);
         opacity: 0;
     }
 }
-
-
 
 .left-side .wave {
     position: absolute;
@@ -291,5 +286,3 @@ body {
     bottom: 5px;
     color: #f4ffff;
 }
-
-
